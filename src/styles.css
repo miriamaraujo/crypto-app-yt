@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* 
+Colours:
+
+#1967FF :: Blue
+#FF2180 :: Pink
+#9443FF :: Purple
+#49484D :: Dark Grey
+#DDE4F1 :: Mid Grey
+#F6F8FC :: Light Grey
+
+
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.toolbar {
+    background-color: #F6F8FC;
+    /* box-shadow: 0px 10px 10px #DDE4F1; */
+    border-bottom: 1px solid #DDE4F1;
+    padding-top: 5px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h2 {
+    padding-top: 20px;
+    color: #49484D;
+}
+
+currency-selector {
+    background-color: #49484D;
+    color: #F6F8FC;
+}
+
+.link {
+    cursor: pointer;
+}

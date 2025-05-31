@@ -1,0 +1,117 @@
+/* 
+Colours:
+
+#1967FF :: Blue
+#FF2180 :: Pink
+#9443FF :: Purple
+#49484D :: Dark Grey
+#DDE4F1 :: Mid Grey
+#F6F8FC :: Light Grey
+
+
+*/
+
+.header {
+    height: 40%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #F6F8FC;
+}
+
+.header h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 3.75rem;
+    line-height: 1.2;
+    color: #F6F8FC;
+}
+
+.header h6 {
+    color: #F6F8FC;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.banner {
+    background-image: url(../../assets/banner-1.jpg);
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    /* position: -webkit-sticky; */
+    top: 0;
+    z-index: 900;
+}
+
+.sub-header {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border: 0;
+    background: transparent;
+    color: #fff;
+    padding: 10px;
+    margin: 40px;
+    width: 100px;
+    height: 200px;
+}
+
+.card img {
+    width: 40px;
+    margin: 0 auto;
+}
+
+.card h5,
+.card p {
+    font-weight: 600;
+}
+
+.table {
+    position: relative;
+    border: 1px solid #DDE4F1;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+table {
+    width: 100%;
+}
+
+.mat-form-field {
+    font-size: 14px;
+    width: 100%;
+}
+
+td,
+th {
+    width: 25%;
+}
+
+th {
+    /* font-weight: bold; */
+    font-size: larger;
+    vertical-align: middle;
+}
+
+:host ::ng-deep .mat-sort-header-content {
+    color: #fff;
+}
+
+:host ::ng-deep tr.mat-header-row {
+    background-color: #9443FF;
+}
+
+:host ::ng-deep tr.mat-row {
+    height: 70px;
+}
+
+mat-paginator {
+    bottom: 0px;
+}
